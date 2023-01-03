@@ -24,7 +24,7 @@ jobs:
           $POETRY_HOME/bin/poetry --version
 
       - name: Install dependencies
-        run: poetry install
+        run: $POETRY_HOME/bin/poetry install
 
       - name: Deploy site
-        run: poetry run mkdocs gh-deploy --force
+        run: $POETRY_HOME/bin/poetry run mkdocs gh-deploy --force
