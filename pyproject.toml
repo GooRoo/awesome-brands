@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "awesome-brands"
+version = "0.1.0"
+description = "A curated list of awesome (and awful) brands I had exprience with."
+authors = ["GooRoo <sergey.olendarenko@gmail.com>"]
+license = "CC BY-NC-SA 4.0 International"
+readme = "README.md"
+packages = [{include = "awesome_brands"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^8.5.11"
+mkdocs-awesome-pages-plugin = "^2.8.0"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+mkdocs-ezlinks-plugin = "^0.1.14"
+mkdocs-static-i18n = "^0.53"
+mkdocs-obsidian-bridge = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
