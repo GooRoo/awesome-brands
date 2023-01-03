@@ -1,4 +1,4 @@
 nav:
-  - index.md
+  - Головна: index.md
   - Бренди: Brands
-  - tags.md
+  # - tags.md
