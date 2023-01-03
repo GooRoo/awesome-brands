@@ -1,5 +1,6 @@
 ---
 title: Бренди
+comments: true
 ---
 
 - [[Біол]]

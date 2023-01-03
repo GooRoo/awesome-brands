@@ -1,5 +1,6 @@
 ---
 title: Phomemo
+comments: true
 tags:
   - принтери
   - термопапір

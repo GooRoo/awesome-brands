@@ -14,7 +14,7 @@ edit_uri: "" #edit/main/docs/
 theme:
   name: material
   language: uk
-  # custom_dir: '../../overrides/'
+  custom_dir: 'overrides/'
   # logo: assets/qml-colors-logo_64.png
   # favicon: assets/qml-colors-logo_32.png
   icon:

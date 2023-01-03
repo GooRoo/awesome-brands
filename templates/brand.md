@@ -1,5 +1,6 @@
 ---
 title: {{title}}
+comments: true
 tags:
   - 
   - походження/
